@@ -77,7 +77,7 @@ pip uninstall torch torchvision -y
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
 ```
 
-Если нет видеокарты или используется встроенная видеоускоритель, то установку библиотек можно выполнить уже с помощью данной команды:
+Если нет видеокарты или используется встроенный видеоускоритель, то установку библиотек можно выполнить уже с помощью данной команды:
 
 ```bash
 pip uninstall torch torchvision -y 
@@ -307,3 +307,4 @@ ULTRA-DEEP NEURAL NETWORKS WITHOUT RESIDUALS](https://arxiv.org/pdf/1605.07648).
 - Статья авторства Jun Lu [AdaSmooth: An Adaptive Learning Rate Method based on Effective Ratio](https://arxiv.org/pdf/2204.00825v1)
 
 - Документация [PyTorch](https://docs.pytorch.org/docs/stable/index.html)
+
